@@ -1,3 +1,5 @@
+
+
 /* INDEX HTML PAGE */
 /*title section*/
 
@@ -53,7 +55,7 @@
 /* LOG IN HTML PAGE*/
 
 /* logo section*/
-#logo{
+#logo-login{
   padding: 2rem 3%;
 }
 
@@ -71,4 +73,34 @@
 
 .login-form-container{
   padding: 0 15%;
+}
+
+
+/* SIGN IN HTML PAGE*/
+
+/* logo section*/
+#logo-signin{
+  text-align: center;
+  padding: 2rem 3% 5rem;
+}
+
+/*SIGN IN SECTION */
+
+::-webkit-input-placeholder {
+   text-align: center;
+
+}
+
+.date-input {
+  text-align: center;
+}
+
+.signin-form-container{
+  padding: 0 30%;
+}
+.signin-form{
+  margin-bottom: 10px;
+}
+.signin-btn{
+  margin-top: 30px;
 }
