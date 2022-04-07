@@ -1,4 +1,4 @@
-
+/* INDEX HTML PAGE */
 /*title section*/
 
 .logoName{
@@ -11,10 +11,12 @@
   padding-bottom: 5%;
 }
 
-.description-text{
+.description-text-container{
   text-align: center;
 }
-
+.description-text{
+  padding: 0 3%;
+}
 /*buttons section*/
 #buttons{
   text-align: center;
@@ -42,4 +44,31 @@
   margin: 0px 30px;
   color: black;
   text-decoration: none;
+}
+
+
+
+
+
+/* LOG IN HTML PAGE*/
+
+/* logo section*/
+#logo{
+  padding: 2rem 3%;
+}
+
+/* LOGIN SECTION */
+#logIn{
+    padding: 0 3%;
+}
+.logIn{
+  padding: 15% 10%;
+}
+.login-form{
+  padding: 0 0 2%;
+  line-height: 2;
+}
+
+.login-form-container{
+  padding: 0 15%;
 }
